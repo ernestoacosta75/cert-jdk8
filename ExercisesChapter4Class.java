@@ -8,8 +8,25 @@ public class ExercisesChapter4Class {
         int [] third = null;
 
         System.out.println(first != null ? "first array length: " + first.length : "The array points to null");
+        if(first != null) {
+            for (int i = 0; i < first.length; i++) {
+                System.out.println("Element [" + i + "]: " + first[i]);
+            }
+        }
+
         System.out.println(second != null ? "second array length: " + second.length : "The array points to null");
+        if(second != null) {
+            for (int i = 0; i < second.length; i++) {
+                System.out.println("Element [" + i + "]: " + second[i]);
+            }
+        }
+
         System.out.println(third != null ? "third array length: " + third.length : "The array points to null");
+        if(third != null) {
+            for (int i = 0; i < third.length; i++) {
+                System.out.println("Element [" + i + "]: " + third[i]);
+            }
+        }
         
     }
     public static void main(String[] args) {

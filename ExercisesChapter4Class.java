@@ -2,6 +2,10 @@ package chapter4;
 
 public class ExercisesChapter4Class {
 
+    public static void exercis32Secc44() {
+        char [] charArr = {'a', 'b', 'c', 'd'};
+    }
+
     public static void exercise2Secc44() {
         int [] first = new int[3];
         int [] second = {};
